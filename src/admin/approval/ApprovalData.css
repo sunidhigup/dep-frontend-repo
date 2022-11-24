@@ -1,0 +1,7 @@
+.table-row-light {
+    background-color: #ffffff;
+}
+.table-row-dark {
+    background-color: #ccced6;
+}
+.ant-table-thead>tr>th {background-color: #003566; color :#0dd398}

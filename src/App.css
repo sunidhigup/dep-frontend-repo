@@ -1,0 +1,41 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Roboto Slab", serif !important; */
+  font-family: 'Ubuntu', sans-serif !important;
+}
+
+.App {
+  display: flex;
+
+}
+.button-color {
+  background-color: #0dd398 !important;
+  /* background-color: #e2fff6 !important; */
+  color: #fff;
+  border-color: #0dd398 !important;
+}
+.button-color:disabled {
+  background-color: #68e9c2 !important;
+  color: #fff !important;
+}
+.outlined-button-color {
+  border-color: #0dd398 !important;
+  color: #0dd398 !important;
+}
+
+.outlined-button-color:disabled {
+  border-color: rgb(197, 197, 197) !important;
+  color: rgb(203, 202, 202) !important;
+}
+a {
+  color: #000;
+  /* text-decoration: none; */
+}

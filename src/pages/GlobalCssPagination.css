@@ -1,0 +1,8 @@
+.MuiTablePagination-select{
+    margin-bottom:  10px !important;
+}
+
+.MuiTablePagination-selectIcon{
+    padding-bottom : 5px;
+    padding-right: 5px;
+}

@@ -1,0 +1,105 @@
+.dndflow {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  position: sticky;
+  padding: 0 10px;
+}
+
+.node-sec aside {
+  display: flex;
+  padding: 15px 10px;
+  overflow-y: auto;
+  background-color: #e9ecef;
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.node-sec aside > * {
+  cursor: grab;
+  font-size: 0.8rem;
+  /* width: 100%; */
+  /* height: 25px; */
+  padding:0 10px;
+  line-height: 25px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.node-sec aside .description {
+  width: 200px;
+  height: 60px;
+  font-size: 0.8rem;
+  color: #000;
+  line-height: 1rem;
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+
+}
+.node-sec aside .input {
+  /* background-color: #73e2a7; */
+  font-family: "Roboto Slab", serif;
+  /* border:1px solid #000; */
+  color: #000;
+  font-weight: bold;
+}
+
+.dndflow .reactflow-wrapper {
+  flex-grow: 1;
+  /* flex: 4; */
+  height: 100%;
+  width: 80%;
+  z-index: 10000;
+  border: 2px solid #ced4da;
+  border-radius: 10px;
+}
+.step-form {
+  max-height: 100vh;
+  min-height: 100vh;
+  background-color: #e9ecef;
+  border-radius: 10px;
+  overflow-y: scroll;
+  padding: 5px;
+  width: 25%;
+}
+.step-form::-webkit-scrollbar {
+  width: 0.4em;
+}
+.step-form::-webkit-scrollbar-track {
+  --webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+}
+.step-form::-webkit-scrollbar-thumb {
+  background-color: #0dd398;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .step-form {
+    margin: 15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .dndflow {
+    flex-direction: row-reverse;
+  }
+
+  .dndflow aside {
+    width: 15%;
+    max-width: 180px;
+    z-index: 10000;
+  }
+
+  .dndflow .rightDrawer {
+    width: 15%;
+  }
+}
+.react-flow {
+  /* position: static; */
+  position: relative !important;
+}

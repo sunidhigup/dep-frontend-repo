@@ -1,0 +1,61 @@
+.modal {
+    font-size: 12px;
+    /* border: 5px solid green; */
+    border-radius: 12px;
+    
+  }
+  .modal > .header {
+    width: 100%;
+    border-bottom: 3px solid #0dd398;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+  }
+  .popup-content {
+    margin: auto;
+    background: rgb(255, 255, 255);
+    width: 28%;
+    padding: 5px;
+    border: 2px solid #0dd398;
+    border-radius: 10px;
+    /* box-shadow: 5px 5px 5px #0dd398; */
+  }
+  
+  .popup-arrow {
+    color: rgb(255, 255, 255);
+  }
+  [role="tooltip"].popup-content {
+    width: 200px;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px; */
+  }
+  
+  .popup-overlay {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  [data-popup="tooltip"].popup-overlay {
+    background: transparent;
+  }
+  .modal > .content {
+    width: 100%;
+    padding: 10px 5px;
+  }
+  .modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+  .modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 2px solid #0dd398;
+  }
+  
